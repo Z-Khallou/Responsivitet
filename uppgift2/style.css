@@ -1,0 +1,29 @@
+html, body {
+  margin: 0;            /* Tar bort webbläsarens standardmarginal runt sidan */
+  padding: 0;           /* Tar bort standardutfyllnad, ifall det finns någon */
+  min-height: 100vh;    /* Sidan ska alltid vara minst lika hög som skärmen */
+}
+
+.container {
+  display: grid;                      /* Gör elementet till ett rutnät (grid) */
+  grid-template-columns: 1fr 1fr;     /* 2 lika breda kolumner */
+  grid-template-rows: 1fr 1fr;        /* 2 lika höga rader → totalt 4 rutor */
+  width: 100vw;                       /* Bredden = hela skärmens bredd */
+  height: 100vh;                      /* Höjden = hela skärmens höjd */
+}
+
+.röd {
+  background-color: #ff0000;
+}
+
+.blå {
+  background-color: #0d0dc0;
+}
+
+.grön {
+  background-color: #22a822;
+}
+
+.gul {
+  background-color: #dede20;
+}
